@@ -25,7 +25,7 @@ def main():
     with open('cities.txt') as cities_file:
         for line in cities_file:
             cities.append(line.strip())
-    with open('gemeentes.txt') as gemeentes_file:
+    with open('municipalities.txt') as gemeentes_file:
         for line in gemeentes_file:
             gemeentes.append(line.strip())       
 
